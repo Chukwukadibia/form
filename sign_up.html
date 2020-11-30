@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial=1">
+	<style >
+		
+			body{			
+			background: url(login2.jpg);
+			background-size: cover; 
+			}
+
+		.container{
+			background: rgba(211,211,211, 0.5);
+			margin: auto;
+			margin-top: 5%;
+			border-radius: 5px;
+			width: 60%;
+			}
+
+		.form_head{width: 100%;
+			text-align: center;
+			color: white;
+			background-color: green;
+			
+			padding: 20px 0px;
+			box-shadow: 3px 7px rgba(0,0,0, 0.4);
+			font-family: sans-serif;}
+
+		.form_container{
+			padding: 40px 70px;
+			}
+
+		
+		h1{text-align: center;}
+
+		input[type=text], input[type=password], input[type=email], input[type=date], select{
+			width: 100%;
+		  padding: 15px 20px;
+		  margin: 8px 0;
+		  
+		  border: 1px solid rgba(300,0,0,0.2);
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  font-size: 20px;
+			}
+
+		input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=date]:hover, select:hover{border: 1px solid rgba(300,0,0,0.9);}
+
+		input[type=submit]{width: 100%;
+		  padding: 15px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  font-size: 25px;
+			background-color: green;
+			color: white;
+			box-shadow: 0px 0px rgba(0,0,0, 0.0);}
+
+		input[type=submit]:hover{box-shadow: 3px 4px rgba(0,0,0, 0.3);}
+
+		label{font-size: 23px;}
+
+		h3{text-align: center;}
+
+		.welcome{font-size: 45px;}
+
+		.cyon{color:orange;}
+
+		.church{font-size: 30px;}
+	</style>
+
+	
+</script>
+
+</head>
+<body >
+
+<div class="container" >
+	<div class="form_head">
+	<h3><span class="welcome">Welcome</span> to <span class="cyon">CYON</span> <span class="church">Church Of The Archangels.</span> <br>Please fill this form to Signup</h3>
+	</div>
+
+	<div class="form_container">
+		<form>
+
+		<label for="user_name">Full Name</label>
+		<input type="text" name="user_name" id="user_name" placeholder="User Name">
+
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" placeholder="Password">
+
+		<label for="password">Confirm Password</label>
+		<input type="password" name="password" id="password" placeholder="Confirm Password">
+
+		<label for="email">Email</label>
+		<input type="email" name="password" id="password" placeholder="Email">
+
+		<label for="date of birth">Date Of Birth</label>
+		<input type="date" name="date" id="date" placeholder="date of birth">
+
+		<label for="state">State</label>
+		<select id="state">
+			<option value="Abia">Abia</option>
+			<option value="Adamawa">Adamawa</option>
+			<option value="Akwa Ibom"> Ikwa Ibom</option>
+			<option value="Akwa Ibom"> Chukwukadibia Empire</option>
+		</select>
+		
+		<input type="submit" name="submit" id="submit">
+	</form>
+</div>
+
+</div>
+
+
+</body>
+</html>
